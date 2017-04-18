@@ -170,15 +170,15 @@ if ( ! class_exists( 'WooCommerce_PDF_Quote_Handling_Export' ) ) {
 		 */
 		public function tmp_path ( $type = '' ) {
 			// get temp setting
-			$old_tmp = isset($this->debug_settings['old_tmp']);
+			//$old_tmp = isset($this->debug_settings['old_tmp']);
 
 			$tmp_base = $this->get_tmp_base();
-			if (!$old_tmp) {
+			//if (!$old_tmp) {
 				// check if tmp folder exists => if not, initialize 
 				if ( !@is_dir( $tmp_base ) ) {
 					$this->init_tmp( $tmp_base );
 				}
-			}
+			//}
 			
 			if ( empty( $type ) ) {
 				return $tmp_base;
@@ -223,7 +223,7 @@ if ( ! class_exists( 'WooCommerce_PDF_Quote_Handling_Export' ) ) {
 		 */
 		public function get_tmp_base () {
 			// wp_upload_dir() is used to set the base temp folder, under which a
-			// 'wpo_wcpdf' folder and several subfolders are created
+			// 'wp_wc_pdfqh' folder and several subfolders are created
 			// 
 			// wp_upload_dir() will:
 			// * default to WP_CONTENT_DIR/uploads
