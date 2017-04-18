@@ -1110,7 +1110,7 @@ if ( ! class_exists( 'WooCommerce_PDF_Quote_Handling_Settings' ) ) {
 				
 				$html .= sprintf('<img src="%1$s" style="display:block" id="img-%4$s"/>', $attachment_src, $attachment_width, $attachment_height, $id );
 				$html .= '<div class="attachment-resolution"><p class="description">'.__('Image resolution').': '.$attachment_resolution.'dpi (default height = 3cm)</p></div>';
-				$html .= sprintf('<span class="button wpo_remove_image_button" data-input_id="%1$s">%2$s</span>', $id, $remove_button_text );
+				$html .= sprintf('<span class="button wpwcpdfqh_remove_image_button" data-input_id="%1$s">%2$s</span>', $id, $remove_button_text );
 			}
 
 			$html .= sprintf( '<input id="%1$s" name="%2$s[%1$s]" type="hidden" value="%3$s" />', $id, $menu, $current );
