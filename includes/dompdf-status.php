@@ -127,9 +127,9 @@ if (($gm = extension_loaded("gmagick")) || ($im = extension_loaded("imagick"))) 
 $permissions = array(
 	'WC_PDFQH_TEMP_DIR'		=> array (
 			'description'		=> 'Central temporary plugin folder',
-			'value'				=> $wp_wc_pdfqh->export->tmp_path(),
-			'status'			=> (is_writable( $wp_wc_pdfqh->export->tmp_path() ) ? "ok" : "failed"),			
-			'status_message'	=> (is_writable( $wp_wc_pdfqh->export->tmp_path() ) ? "Writable" : "Not writable"),
+			'value'				=> $wp_wc_pdfqh->export->tmp_path(''),
+			'status'			=> (is_writable( $wp_wc_pdfqh->export->tmp_path('') ) ? "ok" : "failed"),			
+			'status_message'	=> (is_writable( $wp_wc_pdfqh->export->tmp_path('') ) ? "Writable" : "Not writable"),
 		),
 	'WC_PDFQH_ATTACHMENT_DIR'		=> array (
 			'description'		=> 'Temporary attachments folder',
