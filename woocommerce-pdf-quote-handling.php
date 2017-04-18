@@ -3,7 +3,7 @@
  * Plugin Name: WooCommerce PDF quote handling
  * Plugin URI: http://www.jabiroe.be/wp_wc_pdfqh
  * Description: Create, print & email PDF quotes for WooCommerce orders.
- * Version: 1.0
+ * Version: 1.1
  * Author: Jabiroe
  * Author URI: http://www.jabiroe.be
  * License: GPLv2 or later
