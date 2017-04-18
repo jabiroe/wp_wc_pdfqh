@@ -1,0 +1,65 @@
+/* Order list buttons: */
+.type-shop_order .column-order_actions a.button.wp_wc_pdfqh img {
+	width: 16px;
+}
+
+.widefat .column-pdf_quote_number {
+	width: 110px;
+}
+
+#wp_wc_pdfqh-data-input-box h4 {
+	font-size: 14px;
+	line-height: 1.4;
+	margin: 1.5em 0 0 0;
+}
+
+#wp_wc_pdfqh-data-input-box p {
+	margin: 0.5em 0;
+}
+
+#wp_wc_pdfqh-data-input-box .form-field input {
+	width: auto;
+}
+
+/* Settings page styles */
+#wp-wc-pdfqh-settings {
+	margin-top: 40px;
+}
+
+.nav-tab-debug {
+	margin-left: 4px;
+}
+
+#img-header_logo {
+	max-height: 200px;
+	width: auto;
+}
+
+span.wpwcpdfqh-warning {
+	display: inline-block;
+	border: 1px solid red;
+	border-left: 4px solid red;
+	padding: 5px 15px;
+	background-color: white;
+}
+
+
+img.wpwcpdfqh-helper {
+	position: absolute;
+	top: -20px;
+	left: 3px;
+}
+
+
+.expanded:before {
+	border-color: #111 transparent transparent transparent;
+	left: -1.17em;
+	border-width: 0.45em 0.45em 0.35em 0.35em !important;
+}
+
+.more {
+	padding: 10px;
+	background-color: white;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
