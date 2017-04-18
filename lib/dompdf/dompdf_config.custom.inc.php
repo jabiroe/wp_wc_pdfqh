@@ -1,9 +1,9 @@
 <?php 
-global $wpo_wcpdf;
-if ( is_object($wpo_wcpdf) ) {
-	define("DOMPDF_TEMP_DIR", $wpo_wcpdf->export->tmp_path('DOMPDF_TEMP_DIR') );
-	define("DOMPDF_FONT_DIR", $wpo_wcpdf->export->tmp_path('DOMPDF_FONT_DIR') ); //needs trailing slash!
-	define("DOMPDF_FONT_CACHE", $wpo_wcpdf->export->tmp_path('DOMPDF_FONT_CACHE') );
+global $wp_wc_pdfqh;
+if ( is_object($wp_wc_pdfqh) ) {
+	define("DOMPDF_TEMP_DIR", $wp_wc_pdfqh->export->tmp_path('DOMPDF_TEMP_DIR') );
+	define("DOMPDF_FONT_DIR", $wp_wc_pdfqh->export->tmp_path('DOMPDF_FONT_DIR') ); //needs trailing slash!
+	define("DOMPDF_FONT_CACHE", $wp_wc_pdfqh->export->tmp_path('DOMPDF_FONT_CACHE') );
 }
 
 //define("DOMPDF_CHROOT", DOMPDF_DIR);
