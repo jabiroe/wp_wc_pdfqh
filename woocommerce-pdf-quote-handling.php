@@ -8,7 +8,7 @@
  * Author URI: http://www.jabiroe.be
  * License: GPLv2 or later
  * License URI: http://www.opensource.org/licenses/gpl-license.php
- * Text Domain: wpo_wcpdf
+ * Text Domain: wp_wc_pdfqh
  */
 
 if ( !class_exists( 'WooCommerce_PDF_Quote_Handling' ) ) {
