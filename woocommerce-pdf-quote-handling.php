@@ -180,7 +180,7 @@ if ( !class_exists( 'WooCommerce_PDF_Quote_Handling' ) ) {
 			$debug_settings = get_option( 'wp_wc_pdfqh_debug_settings' ); // get temp setting
 
 			// do not copy if old_tmp function active! (double check for slow databases)
-			if ( !( isset($debug_settings['old_tmp']) ) ) {
+			//if ( !( isset($debug_settings['old_tmp']) ) ) {
 				$tmp_base = $this->export->get_tmp_base();
 
 				// check if tmp folder exists => if not, initialize 
@@ -190,7 +190,7 @@ if ( !class_exists( 'WooCommerce_PDF_Quote_Handling' ) ) {
 
 				$font_path = $tmp_base . 'fonts/';
 				$this->export->copy_fonts( $font_path );
-			}
+			//}
 		}		
 
 		/***********************************************************************/
