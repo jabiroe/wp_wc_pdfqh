@@ -188,22 +188,26 @@ if ( ! class_exists( 'WooCommerce_PDF_Quote_Handling_Export' ) ) {
 				case 'DOMPDF_TEMP_DIR':
 					// original value : sys_get_temp_dir()
 					// 1.5+           : $tmp_base . 'dompdf'
-					$tmp_path = $old_tmp ? sys_get_temp_dir() : $tmp_base . 'dompdf';
+					// $tmp_path = $old_tmp ? sys_get_temp_dir() : $tmp_base . 'dompdf';
+					$tmp_path = $tmp_base . 'dompdf';
 					break;
 				case 'DOMPDF_FONT_DIR': // NEEDS TRAILING SLASH!
 					// original value : DOMPDF_DIR."/lib/fonts/"
 					// 1.5+           : $tmp_base . 'fonts/'
-					$tmp_path = $old_tmp ? DOMPDF_DIR."/lib/fonts/" : $tmp_base . 'fonts/';
+					// $tmp_path = $old_tmp ? DOMPDF_DIR."/lib/fonts/" : $tmp_base . 'fonts/';
+					$tmp_path = $tmp_base . 'fonts/';
 					break;
 				case 'DOMPDF_FONT_CACHE':
 					// original value : DOMPDF_FONT_DIR
 					// 1.5+           : $tmp_base . 'fonts'
-					$tmp_path = $old_tmp ? DOMPDF_FONT_DIR : $tmp_base . 'fonts';
+					// $tmp_path = $old_tmp ? DOMPDF_FONT_DIR : $tmp_base . 'fonts';
+					$tmp_path = $tmp_base . 'fonts';
 					break;
 				case 'attachments':
 					// original value : WooCommerce_PDF_Quote_Handling::$plugin_path . 'tmp/'
 					// 1.5+           : $tmp_base . 'attachments/'
-					$tmp_path = $old_tmp ? WooCommerce_PDF_Quote_Handling::$plugin_path . 'tmp/' : $tmp_base . 'attachments/';
+					// $tmp_path = $old_tmp ? WooCommerce_PDF_Quote_Handling::$plugin_path . 'tmp/' : $tmp_base . 'attachments/';
+					$tmp_path = $tmp_base . 'attachments/';
 					break;
 				default:
 					$tmp_path = $tmp_base . $type;
