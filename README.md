@@ -5,7 +5,7 @@ Contributors: jabiroe
 Tags: woocommerce, pdf, quote, print, email, bulk
 Requires at least: 3.5
 Tested up to: 4.7
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -57,6 +57,11 @@ In the search field type "WooCommerce PDF Quote Handling" and click Search Plugi
 3. Activate the plugin from the Plugins menu within the WordPress admin.
 
 == Changelog ==
+
+= 1.1 =
+Bug fixes
+* Media upload works
+* Check of tmp folders works
 
 = 1.0 =
 * First version
