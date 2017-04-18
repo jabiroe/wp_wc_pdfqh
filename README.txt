@@ -59,6 +59,7 @@ In the search field type "WooCommerce PDF Quote Handling" and click Search Plugi
 == Changelog ==
 
 = 1.1 =
+
 Bug fixes
 * Media upload works
 * Check of tmp folders works
