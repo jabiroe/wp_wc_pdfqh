@@ -1,0 +1,521 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce PDF Quote Handling\n"
+"POT-Creation-Date: 2017-04-22 20:54+0200\n"
+"PO-Revision-Date: 2017-04-22 22:18+0200\n"
+"Language-Team: Jabiroe <info@jabiroe.be>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"Last-Translator: \n"
+"Language: nl_NL\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-wpwcpdfqh-export.php:423
+#: includes/class-wpwcpdfqh-export.php:437
+#: includes/class-wpwcpdfqh-export.php:444
+#: includes/class-wpwcpdfqh-export.php:452
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Je hebt niet voldoende rechten om deze pagina te bekijken."
+
+#: includes/class-wpwcpdfqh-export.php:428
+msgid "Some of the export parameters are missing."
+msgstr "Sommige van de export parameters ontbreken."
+
+#: includes/class-wpwcpdfqh-settings.php:37
+#: includes/class-wpwcpdfqh-settings.php:38
+msgid "PDF Quote handling"
+msgstr "PDF offerte behandelaar"
+
+#: includes/class-wpwcpdfqh-settings.php:79
+msgid "Settings"
+msgstr "Instellingen"
+
+#: includes/class-wpwcpdfqh-settings.php:101
+msgid "General"
+msgstr "Algemeen"
+
+#: includes/class-wpwcpdfqh-settings.php:102
+msgid "Template"
+msgstr "Template"
+
+#: includes/class-wpwcpdfqh-settings.php:107
+msgid "Status"
+msgstr "Status"
+
+#: includes/class-wpwcpdfqh-settings.php:119
+msgid "WooCommerce PDF Quote Handling"
+msgstr "WooCommerce PDF Offerte behandelaar"
+
+#: includes/class-wpwcpdfqh-settings.php:185
+msgid "General settings"
+msgstr "Algemene instellingen"
+
+#: includes/class-wpwcpdfqh-settings.php:192
+msgid "How do you want to view the PDF?"
+msgstr "Hoe wil je de PDF bekijken?"
+
+#: includes/class-wpwcpdfqh-settings.php:200
+msgid "Download the PDF"
+msgstr "PDF downloaden"
+
+#: includes/class-wpwcpdfqh-settings.php:201
+msgid "Open the PDF in a new browser tab/window"
+msgstr "PDF openen in nieuwe tab of browser venster"
+
+#: includes/class-wpwcpdfqh-settings.php:210
+msgid "Admin New Order email"
+msgstr "Administrator email nieuw order"
+
+#: includes/class-wpwcpdfqh-settings.php:211
+msgid "Customer Processing Order email"
+msgstr "Klant email Order in behandeling"
+
+#: includes/class-wpwcpdfqh-settings.php:212
+msgid "Customer Completed Order email"
+msgstr "Klant email Order afgehandeld"
+
+#: includes/class-wpwcpdfqh-settings.php:213
+msgid "Customer Invoice email"
+msgstr "Klant email Factuur"
+
+#: includes/class-wpwcpdfqh-settings.php:222
+msgid "Attach quote to:"
+msgstr "Voeg offerte als bijlage toe aan:"
+
+#: includes/class-wpwcpdfqh-settings.php:230
+#, php-format
+msgid ""
+"It looks like the temp folder (<code>%s</code>) is not writable, check the "
+"permissions for this folder! Without having write access to this folder, the "
+"plugin will not be able to email quotes."
+msgstr ""
+"Het lijkt erop dat er geen schrijfrechten zijn op de tijdelijke map (<code>"
+"%s</code>), controleer de rechten voor die map! Zonder schrijfrechten voor "
+"deze map, zal de plugin geen offertes kunnen mailen."
+
+#: includes/class-wpwcpdfqh-settings.php:237
+msgid "Interface"
+msgstr "Interface"
+
+#: includes/class-wpwcpdfqh-settings.php:284
+msgid "Allow My Account quote download"
+msgstr "Sta het downloaden van offertes toe op de Mijn Account"
+
+#: includes/class-wpwcpdfqh-settings.php:292
+msgid "Only when an quote is already created/emailed"
+msgstr "Enkel wanneer de offerte al gemaakt of gemaild is"
+
+#: includes/class-wpwcpdfqh-settings.php:293
+msgid "Only for specific order statuses (define below)"
+msgstr "Enkel voor de specifieke order statussen (duidt aan hieronder)"
+
+#: includes/class-wpwcpdfqh-settings.php:294
+msgid "Always"
+msgstr "Altijd"
+
+#: includes/class-wpwcpdfqh-settings.php:295
+msgid "Never"
+msgstr "Nooit"
+
+#: includes/class-wpwcpdfqh-settings.php:310
+msgid "Enable quote number column in the orders list"
+msgstr "Toon offerte nummer in de order lijst"
+
+#: includes/class-wpwcpdfqh-settings.php:348
+msgid "PDF Template settings"
+msgstr "PDF template instellingen"
+
+#: includes/class-wpwcpdfqh-settings.php:360
+msgid "Choose a template"
+msgstr "Kies een template"
+
+#: includes/class-wpwcpdfqh-settings.php:368
+#, php-format
+msgid ""
+"Want to use your own template? Copy all the files from <code>%s</code> to "
+"your (child) theme in <code>%s</code> to customize them"
+msgstr ""
+"Wil je je eigen template gebruiken? Kopier alle bestanden van <code>%s</"
+"code> naar je (child)thema in <code>%s</code> om het aan te passen"
+
+#: includes/class-wpwcpdfqh-settings.php:374
+msgid "Paper size"
+msgstr "Papier formaat"
+
+#: includes/class-wpwcpdfqh-settings.php:382
+msgid "A4"
+msgstr "A4"
+
+#: includes/class-wpwcpdfqh-settings.php:383
+msgid "Letter"
+msgstr "Letter"
+
+#: includes/class-wpwcpdfqh-settings.php:390
+msgid "Shop header/logo"
+msgstr "Winkel header/logo"
+
+#: includes/class-wpwcpdfqh-settings.php:397
+msgid "Select or upload your quote header/logo"
+msgstr "Selecteer of upload jouw offerte header/logo"
+
+#: includes/class-wpwcpdfqh-settings.php:398
+msgid "Set image"
+msgstr "Stel afbeelding in"
+
+#: includes/class-wpwcpdfqh-settings.php:399
+msgid "Remove image"
+msgstr "Verwijder afbeelding"
+
+#: includes/class-wpwcpdfqh-settings.php:406
+msgid "Shop Name"
+msgstr "Winkel naam"
+
+#: includes/class-wpwcpdfqh-settings.php:420
+msgid "Shop Address"
+msgstr "Winkel adres"
+
+#: includes/class-wpwcpdfqh-settings.php:436
+msgid "Footer: terms & conditions, policies, etc."
+msgstr "Voetnoot: definities en voorwaarden, beleid, enz."
+
+#: includes/class-wpwcpdfqh-settings.php:453
+#: includes/class-wpwcpdfqh-writepanels.php:275
+#: templates/pdf/Simple/quote.php:11 templates/pdf/Simple/quote.php:23
+#: woocommerce-pdf-quote-handling.php:206
+msgid "Quote"
+msgstr "Offerte"
+
+#: includes/class-wpwcpdfqh-settings.php:460
+msgid "Display shipping address"
+msgstr "Toon het verzendadres"
+
+#: includes/class-wpwcpdfqh-settings.php:467
+msgid ""
+"Display shipping address on quote (in addition to the default billing "
+"address) if different from billing address"
+msgstr ""
+"Toon het verzendadres op de offerte (naast het standaard factuuradres) als "
+"het verschillend is van het factuur adres"
+
+#: includes/class-wpwcpdfqh-settings.php:473
+msgid "Display email address"
+msgstr "Toon het email adres"
+
+#: includes/class-wpwcpdfqh-settings.php:485
+msgid "Display phone number"
+msgstr "Toon het telefoonnummer"
+
+#: includes/class-wpwcpdfqh-settings.php:497
+msgid "Display quote date"
+msgstr "Toon de offerte datum"
+
+#: includes/class-wpwcpdfqh-settings.php:512
+msgid "Next quote number (without prefix/suffix etc.)"
+msgstr "Volgend offerte nummer (zonder voorvoegsel/achtervoegsel enz.)"
+
+#: includes/class-wpwcpdfqh-settings.php:520
+msgid ""
+"This is the number that will be used on the next quote that is created. By "
+"default, numbering starts from the WooCommerce Order Number of the first "
+"quote that is created and increases for every new quote. Note that if you "
+"override this and set it lower than the highest (PDF) quote number, this "
+"could create double quote numbers!"
+msgstr ""
+"Dit is het nummer dat zal gebruikt worden voor de volgende offerte die wordt "
+"gemaakt. Standaard start de nummering vanuit het WooCommerce order nummer "
+"van de eerste offerte die wordt gemaakt en verhoogt voor elke nieuwe "
+"offerte. Merkt op dat door hier een lager nummer in te geven dan het hoogste "
+"(PDF) offerte nummer, je dubbele offerte nummers kan krijgen!"
+
+#: includes/class-wpwcpdfqh-settings.php:544
+msgid "Quote number format"
+msgstr "Offerte nummer formaat"
+
+#: includes/class-wpwcpdfqh-settings.php:553
+msgid "Prefix"
+msgstr "Voorvoegsel"
+
+#: includes/class-wpwcpdfqh-settings.php:555
+msgid ""
+"to use the quote year and/or month, use [quote_year] or [quote_month] "
+"respectively"
+msgstr ""
+"om het offerte jaar en/of maand te gebruiken, gebruikt respectievelijk "
+"[quote_year] of [quote_month]"
+
+#: includes/class-wpwcpdfqh-settings.php:558
+msgid "Suffix"
+msgstr "Achtervoegsel"
+
+#: includes/class-wpwcpdfqh-settings.php:563
+msgid "Padding"
+msgstr "vulling"
+
+#: includes/class-wpwcpdfqh-settings.php:565
+msgid "enter the number of digits here - enter \"6\" to display 42 as 000042"
+msgstr ""
+"geef hier het aantal cijfers in - geef \"5\" in om 46 voor te stellen als "
+"00046"
+
+#: includes/class-wpwcpdfqh-settings.php:568
+msgid ""
+"note: if you have already created a custom quote number format with a "
+"filter, the above settings will be ignored"
+msgstr ""
+"opmerking: als je al een aangepast offerte nummer gemaakt hebt met een "
+"filter, worden bovenstaande instellingen overgeslaan"
+
+#: includes/class-wpwcpdfqh-settings.php:574
+msgid "Reset quote number yearly"
+msgstr "reset het offerte nummer jaarlijks"
+
+#: includes/class-wpwcpdfqh-settings.php:586
+msgid "Extended currency symbol support"
+msgstr "Uitgebreide ondersteuning voor munteenheid symbolen"
+
+#: includes/class-wpwcpdfqh-settings.php:593
+msgid "Enable this if your currency symbol is not displaying properly"
+msgstr "Vink dit aan als je munteenheid symbool niet goed wordt weergegeven"
+
+#: includes/class-wpwcpdfqh-settings.php:600
+msgid "Extra template fields"
+msgstr "Extra template velden"
+
+#: includes/class-wpwcpdfqh-settings.php:607
+msgid "Extra field 1"
+msgstr "Extra veld 1"
+
+#: includes/class-wpwcpdfqh-settings.php:616
+msgid "This is footer column 1 in the <i>Modern (Premium)</i> template"
+msgstr "Dit is voetnoot kolom 1 in de <i>Modern (premium)</i> template"
+
+#: includes/class-wpwcpdfqh-settings.php:623
+msgid "Extra field 2"
+msgstr "Extra veld 2"
+
+#: includes/class-wpwcpdfqh-settings.php:632
+msgid "This is footer column 2 in the <i>Modern (Premium)</i> template"
+msgstr "Dit is voetnoot kolom 2 in de <i>Modern (premium)</i> template"
+
+#: includes/class-wpwcpdfqh-settings.php:639
+msgid "Extra field 3"
+msgstr "Extra veld 3"
+
+#: includes/class-wpwcpdfqh-settings.php:648
+msgid "This is footer column 3 in the <i>Modern (Premium)</i> template"
+msgstr "Dit is voetnoot kolom 3 in de <i>Modern (premium)</i> template"
+
+#: includes/class-wpwcpdfqh-settings.php:670
+msgid "Debug settings"
+msgstr "debug instellingen"
+
+#: includes/class-wpwcpdfqh-settings.php:677
+msgid "Enable debug output"
+msgstr "Schakel debug output in"
+
+#: includes/class-wpwcpdfqh-settings.php:684
+msgid ""
+"Enable this option to output plugin errors if you're getting a blank page or "
+"other PDF generation issues"
+msgstr ""
+"Vink deze optie aan om de plugin fouten te tonen als je lege pagina's of "
+"andere PDF fouten krijgt"
+
+#: includes/class-wpwcpdfqh-settings.php:690
+msgid "Output to HTML"
+msgstr "Output naar HTML"
+
+#: includes/class-wpwcpdfqh-settings.php:697
+msgid ""
+"Send the template output as HTML to the browser instead of creating a PDF."
+msgstr ""
+"Verstuur de template output als HTML naar de browser in de plaats van een "
+"PDF te maken."
+
+#: includes/class-wpwcpdfqh-settings.php:1112
+msgid "Image resolution"
+msgstr "Afbeelding resolutie"
+
+#: includes/class-wpwcpdfqh-settings.php:1227
+msgid ""
+"<b>Warning!</b> The settings below are meant for debugging/development only. "
+"Do not use them on a live website!"
+msgstr ""
+"<b>Waarschuwing!</b> De instellingen hieronder zijn enkel voor debugging of "
+"ontwikkeling. Gebruik ze niet in een live website!"
+
+#: includes/class-wpwcpdfqh-settings.php:1236
+msgid ""
+"These are used for the (optional) footer columns in the <em>Modern "
+"(Premium)</em> template, but can also be used for other elements in your "
+"custom template"
+msgstr ""
+"Deze worden gebruikt voor (optionele) voetnootkolimmen in de <em>Modern "
+"(Premium)</em> template, maar kunnen ook gebruikt worden voor andere "
+"elementen in jouw eigen template"
+
+#: includes/class-wpwcpdfqh-writepanels.php:32
+msgid "PDF Quotes Handling"
+msgstr "PDF Offerte behandeling"
+
+#: includes/class-wpwcpdfqh-writepanels.php:119
+#: includes/class-wpwcpdfqh-writepanels.php:247
+msgid "PDF Quote"
+msgstr "PDF Offerte"
+
+#: includes/class-wpwcpdfqh-writepanels.php:146
+msgid "Quote Number"
+msgstr "Offerte nummer"
+
+#: includes/class-wpwcpdfqh-writepanels.php:205
+msgid "Download quote (PDF)"
+msgstr "Download offerte (PDF)"
+
+#: includes/class-wpwcpdfqh-writepanels.php:219
+msgid "Create PDF"
+msgstr "Maak PDF"
+
+#: includes/class-wpwcpdfqh-writepanels.php:229
+msgid "PDF Quote data"
+msgstr "PDF Offerte data"
+
+#: includes/class-wpwcpdfqh-writepanels.php:277
+msgid "Quote Number (unformatted!)"
+msgstr "Offerter nummer (niet geformateerd!)"
+
+#: includes/class-wpwcpdfqh-writepanels.php:285
+#: templates/pdf/Simple/quote.php:51
+msgid "Quote Date:"
+msgstr "Offerte datum:"
+
+#: includes/class-wpwcpdfqh-writepanels.php:287
+#: includes/class-wpwcpdfqh-writepanels.php:289
+msgid "h"
+msgstr "u"
+
+#: includes/class-wpwcpdfqh-writepanels.php:287
+#: includes/class-wpwcpdfqh-writepanels.php:289
+msgid "m"
+msgstr "m"
+
+#: templates/pdf/Simple/quote.php:31
+msgid "Billing Address:"
+msgstr "Factuur adres:"
+
+#: templates/pdf/Simple/quote.php:45
+msgid "Quote Number:"
+msgstr "Offerte nummer:"
+
+#: templates/pdf/Simple/quote.php:56
+msgid "Order Number:"
+msgstr "Order nummer:"
+
+#: templates/pdf/Simple/quote.php:60
+msgid "Order Date:"
+msgstr "Order datum:"
+
+#: templates/pdf/Simple/quote.php:64
+msgid "Payment Method:"
+msgstr "Betaal methode:"
+
+#: templates/pdf/Simple/quote.php:72
+msgid "Ship To:"
+msgstr "Verzend naar:"
+
+#: templates/pdf/Simple/quote.php:84
+msgid "Product"
+msgstr "Produkt"
+
+#: templates/pdf/Simple/quote.php:85
+msgid "Quantity"
+msgstr "Aantal"
+
+#: templates/pdf/Simple/quote.php:86
+msgid "Price"
+msgstr "Prijs"
+
+#: templates/pdf/Simple/quote.php:93
+msgid "Description"
+msgstr "Omschrijving"
+
+#: templates/pdf/Simple/quote.php:98
+msgid "SKU"
+msgstr "SKU"
+
+#: templates/pdf/Simple/quote.php:99
+msgid "SKU:"
+msgstr "SKU:"
+
+#: templates/pdf/Simple/quote.php:100
+msgid "Weight:"
+msgstr "Gewicht:"
+
+#: templates/pdf/Simple/quote.php:115
+msgid "Customer Notes"
+msgstr "Klant notities"
+
+#: woocommerce-pdf-quote-handling.php:117
+#, php-format
+msgid ""
+"WooCommerce PDF Quote Handling requires %sWooCommerce%s to be installed & "
+"activated!"
+msgstr ""
+"Om WooCommerce PDF Offerte behandeling te gebruiken moet %sWooCommerce%s "
+"geïnstalleerd en geactiveerd zijn!"
+
+#: woocommerce-pdf-quote-handling.php:354
+#: woocommerce-pdf-quote-handling.php:415
+msgid "N/A"
+msgstr "N/A"
+
+#: woocommerce-pdf-quote-handling.php:510
+msgid "Payment method"
+msgstr "Betaal methode"
+
+#: woocommerce-pdf-quote-handling.php:529
+msgid "Shipping method"
+msgstr "Verzend methode"
+
+#: woocommerce-pdf-quote-handling.php:689
+#, php-format
+msgid "(includes %s)"
+msgstr "(bevat %s)"
+
+#: woocommerce-pdf-quote-handling.php:692
+#, php-format
+msgid "(Includes %s)"
+msgstr "(Bevat %s)"
+
+#: woocommerce-pdf-quote-handling.php:721
+msgid "Subtotal"
+msgstr "Subtotaal"
+
+#: woocommerce-pdf-quote-handling.php:743
+msgid "Shipping"
+msgstr "Verzending"
+
+#: woocommerce-pdf-quote-handling.php:806
+msgid "Discount"
+msgstr "Koring"
+
+#: woocommerce-pdf-quote-handling.php:847
+msgid "VAT"
+msgstr "BTW"
+
+#: woocommerce-pdf-quote-handling.php:848
+msgid "Tax rate"
+msgstr "BTW tarief"
+
+#: woocommerce-pdf-quote-handling.php:885
+msgid "Total ex. VAT"
+msgstr "Totaal excl. BTW"
+
+#: woocommerce-pdf-quote-handling.php:888
+msgid "Total"
+msgstr "Totaal"
