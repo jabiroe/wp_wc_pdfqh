@@ -58,5 +58,8 @@ In the search field type "WooCommerce PDF Quote Handling" and click Search Plugi
 
 == Changelog ==
 
+= 2.0 =
+* rewrited version
+* 
 = 1.0 =
 * First version
